@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App{
+  height: 90vh;
+  width: 40vw;
+  padding: 13%;
+  background-image: url("./image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.question{
+height: 22vh;
+margin:0 0 12vh 0;
+font-size: 1.2rem;
+}
+
+.answer{
+height: fit-content;
+margin: 2vh 0 2vh 0;
+font-size: 1.2rem;
+}
+
+.Link{
+  border: 2px solid gray !important;
+  padding: 2%;
+  text-align: center;
+  align-items: center;
+  background-color: yellow !important;
+  margin-top: 20vh;
+}
+
+.image{
+  height: 20vh;
+  width: 30vw;
+  background-image: url("./logo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
 }
